@@ -1,0 +1,65 @@
+body {
+    color: rgb(15, 18, 99);
+    background-color: rgb(235, 233, 233);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 0;
+}
+h1 {
+    color: rgb(0, 1, 39);
+    font-size: 65px;
+    font-weight: bold;
+}
+h2 {
+    color: rgb(0, 1, 39);
+    font-style: italic;
+}
+a {
+    color: rgb(0, 1, 39);
+    font-style: italic;
+    text-decoration: none;
+
+}
+.hlavicka {
+    background-color: rgb(177, 175, 175);
+    text-align: right;
+    padding: 10px 10%;
+    overflow: auto;
+
+}
+.paticka {
+    color: rgb(85, 3, 3);
+    background-color: rgb(177, 175, 175);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.hlavicka img {
+    width: 20%;
+    border: 2px solid rgb(235, 233, 233);
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    float: left;
+}
+td {
+    text-align: left;
+    padding: 10px 0;
+}
+.obsah {
+    text-align: left;
+    padding-left: 70px;
+}
+section {
+    padding: 20px 10%;
+}
+.hlavicka p {
+    font-style: italic;
+    color: rgb(85, 3, 3);
+}
+.kontakt a:hover,
+.kontakt a:focus,
+.kontakt a:active {
+    color: rgb(85, 3, 3);
+}
